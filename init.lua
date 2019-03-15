@@ -178,7 +178,7 @@ minetest.register_globalstep(function (dtime)
 		local posistr = x.." ".. y .." ".. z
 
 		-- resulting hud string
-		local hud_display = h_text .. "\nPos: " .. posistr
+		local hud_display = h_text .. "\nPosition: " .. posistr
 
 		if poshud.enable_mapblock then
 			-- append if enabled
