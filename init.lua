@@ -175,7 +175,7 @@ minetest.register_globalstep(function (dtime)
 		local x = math.floor(posi.x+0.5)
 		local y = math.floor(posi.y+0.5)
 		local z = math.floor(posi.z+0.5)
-		local posistr = x.." ".. y .." ".. z
+		local posistr = x.." | ".. y .." | ".. z
 
 		-- resulting hud string
 		local hud_display = h_text .. "\nPos: " .. posistr
